@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conversão de Temperatura</string>
+    <string name="txtCelsius">Celsius</string>
+    <string name="txtFahrenheit">Fahrenheit</string>
+    <string name="btnConverter">Converter</string>
+    <string name="btnLimpar">Limpar</string>
+    <string name="insertCelsiusPlaceholder">Insira os graus Celsius</string>
+    <string name="insertFahrenheitPlaceholder">Insira os graus Fahrenheit</string>
+    <string name="calculoDescription">Imagem de cálculo</string>
+</resources>

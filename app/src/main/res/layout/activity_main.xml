@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B80E0E"
+    android:backgroundTint="#DFDEDE"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        tools:ignore="UselessParent"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="43dp"
+            android:layout_height="48dp"
+            android:contentDescription="@string/calculoDescription"
+            app:srcCompat="@drawable/baseline_calculate_24"
+            app:tint="#494949" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="30sp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/txtCelsius"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtCelsius"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:padding="5dp"
+            android:hint="@string/insertCelsiusPlaceholder"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginTop="30sp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="@string/txtFahrenheit"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtFahrenheit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:padding="5dp"
+            android:hint="@string/insertFahrenheitPlaceholder"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btnConverter"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="30sp"
+            android:backgroundTint="#262927"
+            android:fontFamily="@font/poppins_bold"
+            android:radius="0sp"
+            android:text="@string/btnConverter"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="#787474"
+            android:fontFamily="@font/poppins_bold"
+            android:radius="0sp"
+            android:text="@string/btnLimpar"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>
